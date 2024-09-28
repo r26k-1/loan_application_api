@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: prediction-model
+Version: 1.0.0
+Summary: loan prediction model
+Home-page: https://github.com/bipulshahi/CompleteMLOps
+Author: Bipul
+Author-email: vipulshahi25@gmail.com
+License: ABC
+Platform: UNKNOWN
+Classifier: Licence :: OSI approved :: ABC License
+Classifier: Programming language :: Python
+Classifier: Programming language :: Python :: 3
+Classifier: Programming language :: Python :: 3.7
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+
+
+#to set projet location as Python path
+set PYTHONPATH=%PYTHONPATH%;D:\MLModelPackaging\pack-ml-model
+
+## Virtual Environment
+Install virtual environment
+
+'''
+python -m pip install virtualenv
+'''
+
+Check the version
+'''
+virtualenv --version
+'''
+
+create virtual environmet
+'''
+virtualenv ml_package
+'''
+
+Activate your virtual environment
+'''
+ml_package\Scripts\activate
+'''
+
+pip install -r requirements.txt
+
+#Manifest.in used in Python projects to specify files to be included or excluded 
+#when creating source distribution with 'setuptools'
+
